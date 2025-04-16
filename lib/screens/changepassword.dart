@@ -1,5 +1,4 @@
 import 'package:maintenance_app/auth/LoginScreen.dart';
-import 'package:maintenance_app/screens/ProfileScreen.dart';
 import 'package:maintenance_app/service/auth_service.dart';
 import 'package:maintenance_app/widgets/widgets.dart';
 import 'package:firebase_auth/firebase_auth.dart';

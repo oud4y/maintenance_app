@@ -241,28 +241,28 @@ class _ProfilePageState extends State<ProfilePage> {
                 const SizedBox(height: 16),
                 ElevatedButton(
                   onPressed: _saveProfile,
-                  child: const Text('Save Profile', style: TextStyle(color: Colors.white)),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xFF1976D2), // Change button color to black
                   ),
+                  child: const Text('Save Profile', style: TextStyle(color: Colors.white)),
                 ),
                 const SizedBox(height: 16),
                 ElevatedButton(
                   onPressed: () {
                     nextScreen(context, const ChangePasswordPage());
                   },
-                  child: const Text('Change Password', style: TextStyle(color: Colors.white)),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xFF1976D2), // Change button color to black
                   ),
+                  child: const Text('Change Password', style: TextStyle(color: Colors.white)),
                 ),
                 const SizedBox(height: 16),
                 ElevatedButton(
                   onPressed: _loginout,
-                  child: const Text('Logout', style: TextStyle(color: Colors.white)),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xFF1976D2), // Change button color to black
                   ),
+                  child: const Text('Logout', style: TextStyle(color: Colors.white)),
                 ),
               ],
             ),

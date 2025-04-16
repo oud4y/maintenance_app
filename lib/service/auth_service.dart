@@ -35,11 +35,9 @@ class AuthService {
           email: email, password: password))
           .user!;
 
-      if (user != null) {
-        await DatabaseService(uid: user.uid).savingUserData(userName, email);
-        return true;
-      }
-    } on FirebaseAuthException catch (e) {
+      await DatabaseService(uid: user.uid).savingUserData(userName, email);
+      return true;
+        } on FirebaseAuthException catch (e) {
       return e.message;
     }
   }

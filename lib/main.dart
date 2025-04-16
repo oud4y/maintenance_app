@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:maintenance_app/auth/LoginScreen.dart';
 import 'package:maintenance_app/screens/DashboardScreen.dart';
 
 Future<void> main() async {
